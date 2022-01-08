@@ -1,0 +1,28 @@
+{
+  "name": "my-portfolio",
+  "version": "1.1.0",
+  "description": "My personal portfolio.",
+  "main": "index.js",
+  "homepage": "https://github.com/Boguszz/my-portfolio#readme",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /my-portfolio/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boguszz/my-portfolio.git"
+  },
+  "keywords": [],
+  "author": "Bohdan strilets <bohdan.strilets@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Boguszz/my-portfolio/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  }
+}
