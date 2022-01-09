@@ -1,0 +1,29 @@
+.theme {
+  margin-bottom: 175px;
+}
+
+.theme__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 30;
+  height: 30;
+  padding: 0;
+
+  border: none;
+  background-color: transparent;
+  color: var(--second-text-color);
+  cursor: pointer;
+
+  transition: color 250ms linear;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-bg-color);
+  }
+}
+
+.theme__icon {
+  fill: currentColor;
+}
