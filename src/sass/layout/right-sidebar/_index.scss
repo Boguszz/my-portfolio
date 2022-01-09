@@ -1,2 +1,9 @@
 @import './theme';
 @import './navigations';
+
+.right-aside {
+  width: 108px;
+  height: 100%;
+  padding: 50px 22px 22px 40px;
+  background-color: var(--second-bg-color);
+}

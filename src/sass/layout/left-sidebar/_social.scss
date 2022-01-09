@@ -1,21 +1,27 @@
-.download {
+.social {
+  display: flex;
+  margin-bottom: 25px;
 }
 
-.download__link {
+.social__item {
+  margin-right: 15px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.social__link {
   display: flex;
   align-items: center;
   justify-content: center;
 
-  width: 220px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
 
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
-  text-transform: uppercase;
-
-  color: var(--second-text-color);
+  border-radius: 50%;
   background-color: var(--accent-bg-color);
+  color: var(--second-text-color);
 
   transition: background-color 250ms linear, color 250ms linear;
 
@@ -26,7 +32,6 @@
   }
 }
 
-.download__icon {
+.social__icon {
   fill: currentColor;
-  margin-left: 20px;
 }

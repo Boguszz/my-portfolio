@@ -1,6 +1,14 @@
 @import './photo';
+@import './social';
 @import './personal-data';
 @import './languages';
 @import './skills';
 @import './extra-skills';
 @import './download';
+
+.left-aside {
+  width: 305px;
+  height: 100%;
+  padding: 50px 45px 25px 40px;
+  background-color: var(--second-bg-color);
+}

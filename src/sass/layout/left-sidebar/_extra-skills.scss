@@ -1,0 +1,31 @@
+.extra-skills {
+  border-bottom: 1.5px solid #f0f0f6;
+  margin-bottom: 25px;
+}
+
+.extra-skills__title {
+  @extend %subtitle;
+  margin-bottom: 15px;
+}
+
+.extra-skills__list {
+  margin-bottom: 25px;
+}
+
+.extra-skills__item {
+  margin-bottom: 5px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.extra-skills__icon {
+  fill: none;
+  stroke: var(--accent-bg-color);
+  margin-right: 15px;
+}
+
+.extra-skills__value {
+  @extend %text;
+}
