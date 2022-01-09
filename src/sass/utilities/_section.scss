@@ -1,3 +1,7 @@
 .section {
-  padding-bottom: 70px;
+  margin-bottom: 70px;
+
+  &--hero {
+    margin-bottom: 138px;
+  }
 }
