@@ -1,97 +1,99 @@
-<section class="contacts">
-  <div class="contacts__left">
-    <h2 class="contacts__title">Leave us your info</h2>
+<section class="section contacts">
+  <div class="contacts__group">
+    <div class="contacts__left">
+      <h2 class="contacts__title">Leave us your info</h2>
 
-    <!-- Contacts form -->
-    <form class="contacts__form form">
-      <label class="form__field">
-        <span class="form__label">Your Full Name ( Required)</span>
-        <input class="form__input" type="text" name="fullName" required />
-      </label>
-      <label class="form__field">
-        <span class="form__label">Your Email ( Required)</span>
-        <input class="form__input" type="email" name="email" required />
-      </label>
-      <label class="form__field">
-        <span class="form__label">Subject</span>
-        <input class="form__input" type="text" name="email" />
-      </label>
-      <label class="form__field">
-        <span class="form__label">Your Message</span>
-        <textarea class="form__textarea" name="message"></textarea>
-      </label>
-      <button class="form__button" type="submit">Your Message</button>
-    </form>
-  </div>
+      <!-- Contacts form -->
+      <form class="contacts__form form">
+        <label class="form__field">
+          <span class="form__label">Your Full Name ( Required)</span>
+          <input class="form__input" type="text" name="fullName" required />
+        </label>
+        <label class="form__field">
+          <span class="form__label">Your Email ( Required)</span>
+          <input class="form__input" type="email" name="email" required />
+        </label>
+        <label class="form__field">
+          <span class="form__label">Subject</span>
+          <input class="form__input" type="text" name="email" />
+        </label>
+        <label class="form__field">
+          <span class="form__label">Your Message</span>
+          <textarea class="form__textarea" name="message"></textarea>
+        </label>
+        <button class="form__button" type="submit">send message</button>
+      </form>
+    </div>
 
-  <!-- Contacts list -->
-  <div class="contacts__right">
-    <h2 class="contacts__title">Contact information</h2>
-    <ul class="contacts__list">
-      <li class="contacts__item">
-        <div class="contacts__icon-wrapper">
-          <svg class="contacts__icon" width="18" height="18">
-            <use href="./images/sprite.svg#icon-location"></use>
-          </svg>
-        </div>
-        <ul class="contacts__sublist">
-          <li class="contacts__subtitle">
-            <span class="contacts__name">Country:</span>
-            <span class="contacts__value">Ukraine</span>
-          </li>
-          <li class="contacts__subtitle">
-            <span class="contacts__name">City:</span>
-            <span class="contacts__value">Vinnytsia</span>
-          </li>
-          <li class="contacts__subtitle">
-            <span class="contacts__name">Streat:</span>
-            <span class="contacts__value">ul. Soborna 25</span>
-          </li>
-        </ul>
-      </li>
-      <li class="contacts__item">
-        <div class="contacts__icon-wrapper">
-          <svg class="contacts__icon" width="18" height="18">
-            <use href="./images/sprite.svg#icon-mail"></use>
-          </svg>
-        </div>
-        <ul class="contacts__sublist">
-          <li class="contacts__subtitle">
-            <span class="contacts__name">Email:</span>
-            <span class="contacts__value">bohdan.strilets@gmail.com</span>
-          </li>
-          <li class="contacts__subtitle">
-            <span class="contacts__name">Skype:</span>
-            <span class="contacts__value">@boguszz</span>
-          </li>
-          <li class="contacts__subtitle">
-            <span class="contacts__name">Telegram:</span>
-            <span class="contacts__value">@boguszz</span>
-          </li>
-        </ul>
-      </li>
-      <li class="contacts__item">
-        <div class="contacts__icon-wrapper">
-          <svg class="contacts__icon" width="18" height="18">
-            <use href="./images/sprite.svg#icon-mobile"></use>
-          </svg>
-        </div>
-        <ul class="contacts__sublist">
-          <li class="contacts__subtitle">
-            <span class="contacts__name">Support services:</span>
-            <span class="contacts__value">15369</span>
-          </li>
-          <li class="contacts__subtitle">
-            <span class="contacts__name">Office:</span>
-            <span class="contacts__value">+58 (021)356 587 235</span>
-          </li>
-          <li class="contacts__subtitle">
-            <span class="contacts__name">Personal:</span>
-            <span class="contacts__value">+58 (021)356 587 235</span>
-          </li>
-        </ul>
-      </li>
-    </ul>
+    <!-- Contacts list -->
+    <div class="contacts__right">
+      <h2 class="contacts__title">Contact information</h2>
+      <ul class="contacts__list">
+        <li class="contacts__item">
+          <div class="contacts__icon-wrapper">
+            <svg class="contacts__icon" width="18" height="18">
+              <use href="./images/sprite.svg#icon-location"></use>
+            </svg>
+          </div>
+          <ul class="contacts__sublist">
+            <li class="contacts__subitem">
+              <span class="contacts__name">Country:</span>
+              <span class="contacts__value">Ukraine</span>
+            </li>
+            <li class="contacts__subitem">
+              <span class="contacts__name">City:</span>
+              <span class="contacts__value">Vinnytsia</span>
+            </li>
+            <li class="contacts__subitem">
+              <span class="contacts__name">Streat:</span>
+              <span class="contacts__value">ul. Soborna 25</span>
+            </li>
+          </ul>
+        </li>
+        <li class="contacts__item">
+          <div class="contacts__icon-wrapper">
+            <svg class="contacts__icon" width="18" height="18">
+              <use href="./images/sprite.svg#icon-mail"></use>
+            </svg>
+          </div>
+          <ul class="contacts__sublist">
+            <li class="contacts__subitem">
+              <span class="contacts__name">Email:</span>
+              <span class="contacts__value">bohdan.strilets@gmail.com</span>
+            </li>
+            <li class="contacts__subitem">
+              <span class="contacts__name">Skype:</span>
+              <span class="contacts__value">@boguszz</span>
+            </li>
+            <li class="contacts__subitem">
+              <span class="contacts__name">Telegram:</span>
+              <span class="contacts__value">@boguszz</span>
+            </li>
+          </ul>
+        </li>
+        <li class="contacts__item">
+          <div class="contacts__icon-wrapper">
+            <svg class="contacts__icon" width="18" height="18">
+              <use href="./images/sprite.svg#icon-mobile"></use>
+            </svg>
+          </div>
+          <ul class="contacts__sublist">
+            <li class="contacts__subitem">
+              <span class="contacts__name">Support services:</span>
+              <span class="contacts__value">15369</span>
+            </li>
+            <li class="contacts__subitem">
+              <span class="contacts__name">Office:</span>
+              <span class="contacts__value">+58 (021)356 587 235</span>
+            </li>
+            <li class="contacts__subitem">
+              <span class="contacts__name">Personal:</span>
+              <span class="contacts__value">+58 (021)356 587 235</span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </div>
 
   <!-- Maps -->

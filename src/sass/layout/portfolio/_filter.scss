@@ -1,0 +1,26 @@
+.filter {
+  margin-bottom: 50px;
+}
+
+.filter__label {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.24;
+
+  text-transform: capitalize;
+  color: var(--second-text-color);
+
+  margin-right: 37px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.filter__input {
+  display: none;
+
+  &:checked + span {
+    color: var(--accent-bg-color);
+  }
+}

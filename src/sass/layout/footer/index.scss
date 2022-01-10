@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  padding: 18px 0 18px 0;
+
+  background-color: var(--second-bg-color);
+  text-align: center;
+}
+
+.footer__text {
+  font-size: 15px;
+  line-height: 1.6;
+  text-transform: capitalize;
+  color: var(--second-text-color);
+}
