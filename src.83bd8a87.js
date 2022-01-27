@@ -3,8 +3,8 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/hero/hero1@1x.png":[["hero1@1x.776d49e3.png","Q46m"],"Q46m"]}],"eYiS":[function(require,module,exports) {
 const e=document.querySelectorAll('a[href^="#"]');for(let t of e)t.addEventListener("click",function(e){e.preventDefault();const o=t.getAttribute("href");document.querySelector(o).scrollIntoView({behavior:"smooth",block:"start"})});
 },{}],"yruE":[function(require,module,exports) {
-const e=document.querySelector(".buton-up");function t(){const t=window.pageYOffset,n=document.documentElement.clientHeight;t>n&&e.classList.add("is-show"),t<n&&e.classList.remove("is-show")}function n(){window.pageYOffset>0&&(window.scrollBy(0,-50),setTimeout(n,0))}window.addEventListener("scroll",t),e.addEventListener("click",n);
+const e=document.querySelector(".buton-up");function t(){const t=window.pageYOffset,n=document.documentElement.clientHeight;t>n&&e.classList.add("is-show"),t<n&&e.classList.remove("is-show")}function n(){window.pageYOffset>0&&(window.scrollBy(0,-30),setTimeout(n,0))}window.addEventListener("scroll",t),e.addEventListener("click",n);
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/smoth-scroll/index"),require("./js/scroll-up/index");
 },{"./sass/main.scss":"clu1","./js/smoth-scroll/index":"eYiS","./js/scroll-up/index":"yruE"}]},{},["Focm"], null)
-//# sourceMappingURL=/my-portfolio/src.83644f63.js.map
+//# sourceMappingURL=/my-portfolio/src.83bd8a87.js.map
