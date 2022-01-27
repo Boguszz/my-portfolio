@@ -6,16 +6,12 @@
       <!-- Contacts form -->
       <form class="contacts__form form">
         <label class="form__field">
-          <span class="form__label">Your Full Name ( Required)</span>
+          <span class="form__label">Your Full Name *</span>
           <input class="form__input" type="text" name="fullName" required />
         </label>
         <label class="form__field">
-          <span class="form__label">Your Email ( Required)</span>
+          <span class="form__label">Your Email *</span>
           <input class="form__input" type="email" name="email" required />
-        </label>
-        <label class="form__field">
-          <span class="form__label">Subject</span>
-          <input class="form__input" type="text" name="email" />
         </label>
         <label class="form__field">
           <span class="form__label">Your Message</span>
@@ -59,15 +55,15 @@
           <ul class="contacts__sublist">
             <li class="contacts__subitem">
               <span class="contacts__name">Email:</span>
-              <span class="contacts__value">bohdan.strilets@gmail.com</span>
-            </li>
-            <li class="contacts__subitem">
-              <span class="contacts__name">Skype:</span>
-              <span class="contacts__value">@boguszz</span>
+              <a class="contacts__link" href="mailto: bohdan.strilets@gmail.com"
+                >bohdan.strilets@gmail.com</a
+              >
             </li>
             <li class="contacts__subitem">
               <span class="contacts__name">Telegram:</span>
-              <span class="contacts__value">@boguszz</span>
+              <a class="contacts__link" href="tg://resolve?domain=bohdan_striletss"
+                >@bohdan_striletss</a
+              >
             </li>
           </ul>
         </li>
@@ -79,16 +75,8 @@
           </div>
           <ul class="contacts__sublist">
             <li class="contacts__subitem">
-              <span class="contacts__name">Support services:</span>
-              <span class="contacts__value">15369</span>
-            </li>
-            <li class="contacts__subitem">
-              <span class="contacts__name">Office:</span>
-              <span class="contacts__value">+48 777 777 777</span>
-            </li>
-            <li class="contacts__subitem">
               <span class="contacts__name">Personal:</span>
-              <span class="contacts__value">+48 777 777 777</span>
+              <a class="contacts__link" href="tel:+48735644592">+48 735 644 592</a>
             </li>
           </ul>
         </li>

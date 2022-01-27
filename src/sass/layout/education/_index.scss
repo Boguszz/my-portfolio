@@ -33,13 +33,14 @@
 }
 
 .education__left {
-  width: 800px;
+  min-width: 250px;
   margin-right: 20px;
 }
 
 .education__name {
   @extend %subtitle;
   margin-bottom: 30px;
+  text-transform: none;
 }
 
 .education__group {
@@ -66,4 +67,5 @@
 
 .education__text {
   @extend %text;
+  text-transform: none;
 }

@@ -18,8 +18,8 @@
 
 .services__list {
   display: flex;
-  flex-wrap: wrap;
-  margin: -10px;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .services__item {
@@ -32,7 +32,6 @@
   justify-content: center;
 
   width: calc((100% - 10px * 6) / 3);
-  margin: 10px;
   padding: 25px 0 35px 0;
 
   background-color: var(--second-bg-color);
@@ -46,10 +45,6 @@
 .services__subtitle {
   @extend %subtitle;
   margin-bottom: 15px;
-}
-
-.services__text {
-  @extend %text;
 }
 
 .services__overlay {
@@ -84,19 +79,4 @@
   @extend %text;
   text-align: center;
   margin-bottom: 27px;
-}
-
-.services__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.17;
-  color: var(--accent-bg-color);
-}
-
-.services__btn-ico {
-  fill: currentColor;
 }

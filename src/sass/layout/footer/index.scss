@@ -9,6 +9,13 @@
 .footer__text {
   font-size: 15px;
   line-height: 1.6;
-  text-transform: capitalize;
   color: var(--second-text-color);
+}
+
+.footer__logo {
+  letter-spacing: 2px;
+  border: 1px solid #000000;
+
+  padding: 8px;
+  margin-left: 15px;
 }

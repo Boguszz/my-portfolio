@@ -18,7 +18,7 @@ function onTrackScroll() {
 
 function onBackToTop() {
   if (window.pageYOffset > 0) {
-    window.scrollBy(0, -50);
+    window.scrollBy(0, -30);
     setTimeout(onBackToTop, 0);
   }
 }

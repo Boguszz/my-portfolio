@@ -33,23 +33,19 @@
 }
 
 .work__left {
-  width: 800px;
+  min-width: 250px;
   margin-right: 20px;
 }
 
 .work__name {
   @extend %subtitle;
   margin-bottom: 30px;
+  text-decoration: none;
 }
 
 .work__group {
   display: flex;
   align-items: center;
-}
-
-.work__status {
-  @extend %text;
-  margin-right: 20px;
 }
 
 .work__interval {
@@ -66,4 +62,5 @@
 
 .work__text {
   @extend %text;
+  text-transform: none;
 }
