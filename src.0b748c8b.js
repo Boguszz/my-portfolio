@@ -7,4 +7,4 @@ const e=document.querySelector(".buton-up");function t(){const t=window.pageYOff
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/smoth-scroll/index"),require("./js/scroll-up/index");
 },{"./sass/main.scss":"clu1","./js/smoth-scroll/index":"eYiS","./js/scroll-up/index":"yruE"}]},{},["Focm"], null)
-//# sourceMappingURL=/my-portfolio/src.83bd8a87.js.map
+//# sourceMappingURL=/my-portfolio/src.0b748c8b.js.map
