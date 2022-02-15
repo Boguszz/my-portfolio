@@ -1,13 +1,47 @@
 @import './form';
 
+.contacts {
+  @media screen and (min-width: $desktop) {
+    width: 970px;
+  }
+}
+
 .contacts__group {
-  display: flex;
   justify-content: space-between;
   margin-bottom: 70px;
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+  }
+}
+
+.contacts__maps {
+  width: 300px;
+  height: 300px;
+
+  @media screen and (min-width: $tablet) {
+    width: 748px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 950px;
+  }
 }
 
 .contacts__left {
-  width: 570px;
+  @media screen and (min-width: $tablet) {
+    width: 420px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 570px;
+  }
+}
+
+.contacts__right {
+  @media screen and (min-width: $desktop) {
+    width: 360px;
+  }
 }
 
 .contacts__title {
@@ -17,7 +51,6 @@
 }
 
 .contacts__item {
-  width: 400px;
   padding: 15px 25px 15px 25px;
   margin-bottom: 20px;
 

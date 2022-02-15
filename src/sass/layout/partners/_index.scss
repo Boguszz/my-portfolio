@@ -1,4 +1,29 @@
+.partners {
+  @media screen and (min-width: $desktop) {
+    width: 970px;
+  }
+}
+
 .partners__list {
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.partners__item {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 50px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.partners__icon {
+  width: 140px;
+  height: 140px;
 }

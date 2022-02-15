@@ -2,6 +2,8 @@
   margin-bottom: 70px;
 
   &--hero {
-    margin-bottom: 138px;
+    @media screen and (min-width: $tablet) {
+      margin-bottom: 138px;
+    }
   }
 }

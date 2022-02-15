@@ -1,0 +1,32 @@
+.mobile-menu {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px 10px 20px 10px;
+
+  background-color: var(--accent-bg-color);
+
+  @media screen and (min-width: $desktop) {
+    display: none;
+  }
+}
+
+.mobile-menu__item {
+  color: var(--white-text-color);
+}
+
+.mobile-menu__button {
+  @extend %button;
+  background-color: transparent;
+  color: var(--second-text-color);
+
+  &:hover,
+  &:focus {
+    background-color: transparent;
+    color: var(--white-text-color);
+  }
+}
+
+.mobile-menu__icon {
+  fill: currentColor;
+}

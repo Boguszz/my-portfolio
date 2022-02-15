@@ -7,9 +7,14 @@
 @import './download';
 
 .left-aside {
+  display: none;
   width: 305px;
   height: 100%;
   padding: 50px 45px 25px 40px;
   margin-right: 30px;
   background-color: var(--second-bg-color);
+
+  @media screen and (min-width: $desktop) {
+    display: block;
+  }
 }

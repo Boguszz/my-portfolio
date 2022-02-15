@@ -1,5 +1,14 @@
 .container {
-  display: flex;
-  width: 1440px;
+  width: $mobile;
   margin: 0 auto;
+  padding: 0 10px 0 10px;
+
+  @media screen and (min-width: $tablet) {
+    width: $tablet;
+  }
+
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    width: $desktop;
+  }
 }
