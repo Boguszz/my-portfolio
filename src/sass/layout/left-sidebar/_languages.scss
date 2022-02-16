@@ -38,4 +38,15 @@
   &::-webkit-progress-value {
     background-color: var(--accent-bg-color);
   }
+
+  &::-moz-progress-bar {
+    border: 1px solid var(--accent-bg-color);
+    border-radius: 5px;
+    background-color: var(--second-bg-color);
+    overflow: hidden;
+  }
+
+  &::-moz-progress-value {
+    background-color: var(--accent-bg-color);
+  }
 }

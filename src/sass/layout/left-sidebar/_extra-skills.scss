@@ -28,4 +28,5 @@
 
 .extra-skills__value {
   @extend %text;
+  text-transform: none;
 }
