@@ -1,0 +1,95 @@
+.backdrop {
+  @extend %backdrop;
+
+  &.is-hidden .menu {
+    transform: translateX(100%);
+  }
+
+  & .menu {
+    transform: translateX(0);
+  }
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  width: 60vw;
+  height: 100vh;
+
+  padding: 15px 15px 15px 15px;
+
+  background-color: var(--second-bg-color);
+  overflow-y: auto;
+  transition: transform 250ms linear 300ms;
+
+  @media screen and (min-width: $tablet) {
+    width: 30vw;
+  }
+}
+
+// Change theme
+
+.m-theme {
+  margin-bottom: 100px;
+}
+
+.m-theme__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 30;
+  height: 30;
+  padding: 0;
+
+  border: none;
+  background-color: transparent;
+  color: var(--second-text-color);
+  cursor: pointer;
+
+  transition: color 250ms linear;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-bg-color);
+  }
+}
+
+.m-theme__icon {
+  fill: currentColor;
+}
+
+// Navigation
+
+.m-navigations__item {
+  display: flex;
+  margin-bottom: 43px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.m-navigations__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--main-text-color);
+
+  &:hover .m-navigations__icon,
+  &:focus .m-navigations__icon {
+    color: var(--accent-text-color);
+  }
+}
+
+.m-navigations__icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 20px;
+
+  fill: currentColor;
+  transition: color 250ms linear;
+}
