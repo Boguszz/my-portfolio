@@ -1,17 +1,10 @@
 .hero {
   padding: 20px 20px 20px 20px;
-  background-color: #ffffff;
+  background-color: var(--second-bg-color);
 
   @media screen and (min-width: $tablet) {
     display: flex;
     align-items: center;
-  }
-
-  @media screen and (min-width: $desktop) {
-    background-image: url('../images/hero/hero1@1x.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
   }
 }
 
