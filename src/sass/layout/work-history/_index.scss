@@ -46,6 +46,10 @@
 .work__left {
   min-width: 250px;
   margin-right: 20px;
+
+  @media screen and (min-width: $tablet) {
+    width: 65%;
+  }
 }
 
 .work__name {
@@ -57,6 +61,7 @@
 .work__group {
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .work__interval {
@@ -69,9 +74,14 @@
 
 .work__right {
   margin-bottom: 30px;
+
+  @media screen and (min-width: $tablet) {
+    width: 25%;
+  }
 }
 
 .work__text {
   @extend %text;
   text-transform: none;
+  margin-bottom: 30px;
 }
